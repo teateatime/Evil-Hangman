@@ -20,6 +20,6 @@ generic_vector.o: generic_vector.c
 associative_array.o: associative_array.c
 	$(CC) $(CFLAGS) -c associative_array.c -o associative_array.o
 clean:  
-	rm unit_test unit_test.o test_def.o evil_hangman $(OBJECTS)
+	rm unit_test unit_test.o test_def.o associative_array.o generic_vector.o evil_hangman $(OBJECTS)
 
 
